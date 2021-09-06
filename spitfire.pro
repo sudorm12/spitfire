@@ -1,4 +1,4 @@
-update=Sat 04 Sep 2021 10:36:32 AM EDT
+update=Sunday, September 05, 2021 at 09:14:56 PM
 version=1
 last_client=kicad
 [general]
@@ -33,7 +33,7 @@ LibDir=
 [eeschema/libraries]
 [schematic_editor]
 version=1
-PageLayoutDescrFile=/home/sean/kicad/template/smt_tech.kicad_wks
+PageLayoutDescrFile=smt_tech.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
