@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "spitfire-rescue")(type "Legacy")(uri "${KIPRJMOD}/spitfire-rescue.lib")(options "")(descr ""))
+)

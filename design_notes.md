@@ -11,9 +11,12 @@ https://www.raspberrypi.com/documentation/computers/os.html#gpio-and-the-40-pin-
 pi@sfbb.local
 
 ## Airplay
-Airplay2 receiver:
+### Airplay2 receiver
 https://github.com/openairplay/airplay2-receiver
 May not work perfectly, bluetooth version could be more reliable
+
+### shairport-sync
+https://github.com/mikebrady/shairport-sync/blob/master/INSTALL.md
 
 ## Decoder
 Audio decoder:

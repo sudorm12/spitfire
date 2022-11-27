@@ -1,0 +1,146 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Regulator_Linear:MIC5205-3.3YM5 U?
+U 1 1 622D6829
+P 2000 1300
+AR Path="/622D6829" Ref="U?"  Part="1" 
+AR Path="/622C22D8/622D6829" Ref="U?"  Part="1" 
+F 0 "U?" H 2000 1642 50  0000 C CNN
+F 1 "MIC5205-3.3YM5" H 2000 1551 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 2000 1625 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005785A.pdf" H 2000 1300 50  0001 C CNN
+	1    2000 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 622D682F
+P 3000 1550
+AR Path="/622D682F" Ref="C?"  Part="1" 
+AR Path="/622C22D8/622D682F" Ref="C?"  Part="1" 
+F 0 "C?" H 3115 1596 50  0000 L CNN
+F 1 "C" H 3115 1505 50  0000 L CNN
+F 2 "" H 3038 1400 50  0001 C CNN
+F 3 "~" H 3000 1550 50  0001 C CNN
+	1    3000 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 622D6835
+P 2450 1550
+AR Path="/622D6835" Ref="C?"  Part="1" 
+AR Path="/622C22D8/622D6835" Ref="C?"  Part="1" 
+F 0 "C?" H 2565 1596 50  0000 L CNN
+F 1 "470p" H 2565 1505 50  0000 L CNN
+F 2 "" H 2488 1400 50  0001 C CNN
+F 3 "~" H 2450 1550 50  0001 C CNN
+	1    2450 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 1400 3000 1200
+Wire Wire Line
+	3000 1200 2300 1200
+$Comp
+L power:+3V3 #PWR?
+U 1 1 622D683D
+P 3000 1100
+AR Path="/622D683D" Ref="#PWR?"  Part="1" 
+AR Path="/622C22D8/622D683D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3000 950 50  0001 C CNN
+F 1 "+3V3" H 3015 1273 50  0000 C CNN
+F 2 "" H 3000 1100 50  0001 C CNN
+F 3 "" H 3000 1100 50  0001 C CNN
+	1    3000 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 1100 3000 1200
+Connection ~ 3000 1200
+Wire Wire Line
+	2450 1400 2450 1300
+Wire Wire Line
+	2450 1300 2300 1300
+$Comp
+L power:GNDD #PWR?
+U 1 1 622D6847
+P 2450 1800
+AR Path="/622D6847" Ref="#PWR?"  Part="1" 
+AR Path="/622C22D8/622D6847" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2450 1550 50  0001 C CNN
+F 1 "GNDD" H 2454 1645 50  0000 C CNN
+F 2 "" H 2450 1800 50  0001 C CNN
+F 3 "" H 2450 1800 50  0001 C CNN
+	1    2450 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 622D684D
+P 2000 1800
+AR Path="/622D684D" Ref="#PWR?"  Part="1" 
+AR Path="/622C22D8/622D684D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2000 1550 50  0001 C CNN
+F 1 "GND" H 2005 1627 50  0000 C CNN
+F 2 "" H 2000 1800 50  0001 C CNN
+F 3 "" H 2000 1800 50  0001 C CNN
+	1    2000 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 1700 2450 1800
+$Comp
+L power:GNDD #PWR?
+U 1 1 622D6854
+P 3000 1800
+AR Path="/622D6854" Ref="#PWR?"  Part="1" 
+AR Path="/622C22D8/622D6854" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3000 1550 50  0001 C CNN
+F 1 "GNDD" H 3004 1645 50  0000 C CNN
+F 2 "" H 3000 1800 50  0001 C CNN
+F 3 "" H 3000 1800 50  0001 C CNN
+	1    3000 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 1700 3000 1800
+Wire Wire Line
+	2000 1600 2000 1800
+$Comp
+L power:+12V #PWR?
+U 1 1 622D685C
+P 1200 1100
+AR Path="/622D685C" Ref="#PWR?"  Part="1" 
+AR Path="/622C22D8/622D685C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1200 950 50  0001 C CNN
+F 1 "+12V" H 1215 1273 50  0000 C CNN
+F 2 "" H 1200 1100 50  0001 C CNN
+F 3 "" H 1200 1100 50  0001 C CNN
+	1    1200 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 1100 1200 1200
+Wire Wire Line
+	1200 1300 1700 1300
+Wire Wire Line
+	1700 1200 1200 1200
+Connection ~ 1200 1200
+Wire Wire Line
+	1200 1200 1200 1300
+$EndSCHEMATC
